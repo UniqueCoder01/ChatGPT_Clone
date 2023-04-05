@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343541;
+  color: white;
+}
+
+form {
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.input {
+  background-color: rgba(64, 65, 79, 1);
+  border: 1px solid rgba(32, 33, 35, .5);
+  border-radius: 6px;
+  padding: 6px 16px;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  width: 70%;
+  margin: auto;
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  height: 30px;
+  /* font-size: 15px; */
+  padding: 8px 0;
+  z-index: 8;
+  position: relative;
+}
+
+
+textarea::placeholder {
+  color: rgba(142, 142, 160, 1);
+}
+
+.icon {
+  background-image: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 2%;
+  background-color: rgba(64, 65, 79, 1);
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon svg {
+  color: rgba(142, 142, 160, 0.4);
+}
+
+.result {
+  background-color: rgba(68, 70, 84, 1);
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* min-height: 200px; */
+  padding: 40px 40px;
+  border: 1px solid rgba(32, 33, 35, .5);
+  border-radius: 5px;
+}
+
+.question {
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px 40px;
+  color: white;
+}
